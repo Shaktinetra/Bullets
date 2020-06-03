@@ -21,6 +21,8 @@ function setup() {
 function draw() {
   background(0); 
 
+ bullet.collide(wall);
+  
  if (hasCollided(bullet, wall)) {
    bullet.velocityX = 0;
 
@@ -32,8 +34,6 @@ function draw() {
      wall.shapeColor = color(0, 255, 0);
    }
  }
-
-  bullet.collide(wall);
 
   drawSprites();
 }
