@@ -33,7 +33,7 @@ function draw() {
    }
  }
 
-  collide(bullet, wall);
+  bullet.collide(wall);
 
   drawSprites();
 }
