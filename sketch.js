@@ -3,7 +3,9 @@ var bullet, wall, speed, weight, damage, thickness;
 function setup() {
   createCanvas(1600,400);
 
-  speed = random(230, 52);
+  speed = random(223, 321);
+  
+  weight = random(30, 52);
 
   damage = (0.5 * speed * weight * speed) / (thickness * thickness * thickness)
 
