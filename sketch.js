@@ -28,11 +28,11 @@ function draw() {
    bullet.velocityX = 0;
 
    if (damage > 10) {
-     wall.shapeColor = "red";
+     bullet.shapeColor = "red";
    }
 
    if (damage < 10) {
-     wall.shapeColor = "green";
+     bullet.shapeColor = "green";
    }
  }
 
