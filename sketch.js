@@ -25,12 +25,8 @@ function draw() {
  bullet.collide(wall);
   
  if (isTouching(bullet, wall)) {
-   if (damage > 10) {
+   if (damage >= 10) {
      bullet.shapeColor = "red";
-   }
-   
-   if (damage = 10) {
-     bullet.shapeColor = "yellow";
    }
 
    if (damage < 10) {
