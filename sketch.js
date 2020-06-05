@@ -29,7 +29,7 @@ function draw() {
      bullet.shapeColor = "red";
    }
 
-   if (damage < 10) {
+   if (damage <= 10) {
      bullet.shapeColor = "green";
    }
  }
