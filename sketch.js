@@ -11,7 +11,7 @@ function setup() {
 
   damage = (0.5 * speed * weight * speed) / (thickness * thickness * thickness)
 
-  bullet = createSprite(50, 200, 20, 10);
+  bullet = createSprite(50, 200, 30, 15);
   bullet.shapeColor = "white";
   bullet.velocityX = speed;
   
