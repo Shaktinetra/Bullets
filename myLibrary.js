@@ -41,7 +41,6 @@ function hasCollided(object1, object2) {
     object2LeftEdge = object2.x;
     if (object1RightEdge>=object2LeftEdge) {
         return true;
-    } else {
-        return false;
     }
+        return false;
 }
