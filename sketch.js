@@ -21,16 +21,16 @@ function setup() {
 
 function draw() {
   background(0); 
-
- bullet.collide(wall);
   
  if (isTouching(bullet, wall)) {
+   bullet.velocityX = 0;
+   
    if (damage >= 10) {
-     bullet.shapeColor = "red";
+     wall.shapeColor = "red";
    }
 
    if (damage < 10) {
-     bullet.shapeColor = "green";
+     wall.shapeColor = "green";
    }
  }
 
