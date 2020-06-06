@@ -21,6 +21,8 @@ function setup() {
 function draw() {
   background(0); 
   
+  console.log(wall.x);
+  
  if (isTouching(bullet, wall)) {
    bullet.velocityX = 0;
    
